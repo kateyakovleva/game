@@ -1,0 +1,29 @@
+.app {
+  background-color: rgb(13, 70, 70);
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+
+  .popup {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(20, 117, 85);
+    background-color: aliceblue;
+    padding: 10px 30px;
+    border: solid 3px;
+    border-radius: 20px;
+    border-color: rgb(20, 117, 85);
+    position: absolute;
+    top: 20px;
+  }
+}
+
+
+
+
+

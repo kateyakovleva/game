@@ -1,0 +1,50 @@
+.block {
+    width: 30%; 
+    height: 50vh;
+    background-color: azure;
+    position: relative;   
+
+    .images {
+        width: 100%;
+    }
+
+    .button-top {
+        top: 0;
+        left: 40%;
+        position: absolute;
+    }
+
+    .button-right {
+        right: 0;
+        bottom: 45%;
+        position: absolute;
+    }
+
+    .button-down {
+        bottom: 0;
+        left: 40%;
+        position: absolute;
+    }
+
+    .button-left {
+        left: 0;
+        bottom: 45%;
+        position: absolute;
+    }
+
+    .button-switch {
+        position: absolute;
+        bottom: 45%;
+        right: 35%;
+    }
+
+    .non {
+        display: none;
+    }
+
+    &:hover .non{
+        display: block;
+    }
+
+}
+    
